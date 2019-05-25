@@ -48,10 +48,13 @@ import { RoutingModule } from './routing/routing.module';
 import { ContactComponent } from './contact/contact.component';
 import { MyNavComponent } from './my-nav/my-nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
+import { BlogComponent } from './blog/blog.component';
+import { PlaceComponent } from './place/place.component';
+import { ActivitiesComponent } from './activities/activities.component';
 
 
 @NgModule({
-  declarations: [AppComponent, NavBarComponent, HomeComponent, ContactComponent, MyNavComponent],
+  declarations: [AppComponent, NavBarComponent, HomeComponent, ContactComponent, MyNavComponent, BlogComponent, PlaceComponent, ActivitiesComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,

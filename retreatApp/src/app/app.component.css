@@ -35,10 +35,18 @@
   flex-wrap: wrap;
 }
 
+
 .space {
   flex-grow: 2;
 }
 ::ng-deep .mat-icon {
   height: 3em !important;
   left: 0 !important;
+}
+
+
+.web_title {
+  letter-spacing: .3px;
+  line-height: 24px;
+  font-size: 14px;
 }
