@@ -1,0 +1,30 @@
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  margin: 1% 2% 0;
+  width: 80%;
+  height: 100px;
+  background-color: #a88ad8;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.5rem;
+  letter-spacing: -0.3px;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  padding: 2%;
+  color: white;
+  
+  &:hover{
+    background-color: #d0b3ff;
+    cursor:pointer;
+  }
+}

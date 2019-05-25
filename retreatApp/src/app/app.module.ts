@@ -2,7 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {
   MatAutocompleteModule,
@@ -46,15 +45,15 @@ import { HttpClientModule } from "@angular/common/http";
 import { HomeComponent } from './home/home.component';
 import { RoutingModule } from './routing/routing.module';
 import { ContactComponent } from './contact/contact.component';
-import { MyNavComponent } from './my-nav/my-nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { BlogComponent } from './blog/blog.component';
 import { PlaceComponent } from './place/place.component';
 import { ActivitiesComponent } from './activities/activities.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 
 @NgModule({
-  declarations: [AppComponent, NavBarComponent, HomeComponent, ContactComponent, MyNavComponent, BlogComponent, PlaceComponent, ActivitiesComponent],
+  declarations: [AppComponent, HomeComponent, ContactComponent, BlogComponent, PlaceComponent, ActivitiesComponent, DashboardComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,

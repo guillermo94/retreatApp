@@ -4,6 +4,7 @@ import { HomeComponent } from '../home/home.component';
 import { ContactComponent } from '../contact/contact.component';
 import { PlaceComponent } from '../place/place.component';
 import { ActivitiesComponent } from '../activities/activities.component';
+import { DashboardComponent } from '../dashboard/dashboard.component';
 
 @NgModule({
   imports: [
@@ -13,6 +14,7 @@ import { ActivitiesComponent } from '../activities/activities.component';
       { path: 'place', component: PlaceComponent },
       { path: 'activities', component: ActivitiesComponent },
       { path: 'contact', component: ContactComponent },
+      { path: 'admin', component: DashboardComponent },
       { path: '', redirectTo: 'home', pathMatch: 'full' },
     ], { enableTracing: true })
   ],
