@@ -50,6 +50,7 @@ import { BlogComponent } from './blog/blog.component';
 import { PlaceComponent } from './place/place.component';
 import { ActivitiesComponent } from './activities/activities.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { DashboardModule } from './dashboard/dashboard.module';
 
 
 @NgModule({
@@ -68,6 +69,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     LayoutModule,
     MatSidenavModule,
     MatListModule,
+    DashboardModule
   ],
   providers: [],
   bootstrap: [AppComponent],

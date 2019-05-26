@@ -1,8 +1,29 @@
 <div class="cards-container">
   <div class="card">
-    Blog
+    <div class="card-title">Contenido</div>
+    <div class="space"></div>
+    <i class="material-icons action-icon">
+      remove_red_eye
+    </i>
   </div>
-  <div [routerLink]="['/contact']" class="card">
-    Actividades
+  <div class="card">
+    <div class="card-title">Blog</div>
+    <div class="space"></div>
+    <i class="material-icons action-icon">
+      remove_red_eye
+    </i>
+    <i class="material-icons action-icon">
+      add_circle_outline
+    </i>
+  </div>
+  <div class="card" [routerLink]="['activities/add']">
+    <div class="card-title">Actividades</div>
+    <div class="space"></div>
+    <i class="material-icons action-icon">
+      remove_red_eye
+    </i>
+    <i class="material-icons action-icon">
+      add_circle_outline
+    </i>
   </div>
 </div>
