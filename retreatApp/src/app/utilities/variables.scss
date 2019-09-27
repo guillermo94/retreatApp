@@ -1,1 +1,19 @@
-$primary-color: #80669b !default;
+@import "variables/colors";
+@import "variables/fonts";
+
+%paragraph-normal {
+  @extend %font-small-light;
+  display: flex;
+  color: $tiny-87;
+  letter-spacing: 0.3px;
+  padding: 2%;
+}
+
+%title-and-paragraph-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 8% 2% 2% 2%;
+}

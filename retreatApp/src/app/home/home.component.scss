@@ -1,25 +1,12 @@
+@import "../utilities/variables";
 .home-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  justify-content: center;
-  align-items: center;
-  margin: 2% 2%;
-  flex-direction: column;
+  @extend %title-and-paragraph-container;
 
   & .home-title {
-    font-size: 1.5rem;
-    letter-spacing: -0.3px;
-    font-weight: 700;
-    display: flex;
+    @extend %font-medium-bold;
   }
 
   & .home-paragraph {
-    padding: 1.5%;
-    color: rgba(0, 0, 0, 0.87);
-    letter-spacing: 0.3px;
-    line-height: 24px;
-    font-size: 14px;
-    display: flex;
+    @extend %paragraph-normal;
   }
 }

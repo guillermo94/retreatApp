@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -7,10 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  home_title = "WELCOME";
-  home_paragraph = "some paragraph";
+  home_title = 'WELCOME';
+  home_paragraph = 'some paragraph some paragraph some paragraph some paragraph some paragraph some paragraph';
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
   }

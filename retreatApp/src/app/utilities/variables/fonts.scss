@@ -1,0 +1,115 @@
+// Font sizes
+$font-size-tiny: 10px;
+$font-size-extra-small: 12px;
+$font-size-small: 14px;
+$font-size-normal: 1.5rem;
+$font-size-medium: 2rem;
+$font-size-large: 2.5rem;
+$font-size-extra-large: 3rem;
+$font-size-grand: 3.5rem;
+
+// Line heights
+$line-height-tiny: 12px;
+$line-height-extra-small: 16px;
+$line-height-small: 20px;
+$line-height-normal: 2rem;
+$line-height-medium: 2.5rem;
+$line-height-large: 3rem;
+$line-height-extra-large: 3.5rem;
+$line-height-grand: 4rem;
+
+// Font weights
+$font-weight-light: 300;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+//Letter spacing
+$letter-spacing-close: -0.3px;
+$letter-spacing-open: 0.3px;
+
+// Typography
+%font-tiny-light {
+  font-size: $font-size-tiny;
+  font-weight: $font-weight-light;
+  line-height: $line-height-tiny;
+}
+
+%font-tiny {
+  font-size: $font-size-tiny;
+  font-weight: $font-weight-medium;
+  line-height: $line-height-tiny;
+}
+
+%font-extra-small-light {
+  font-size: $font-size-extra-small;
+  font-weight: $font-weight-light;
+  line-height: $line-height-extra-small;
+}
+
+%font-extra-small {
+  font-size: $font-size-extra-small;
+  font-weight: $font-weight-medium;
+  line-height: $line-height-extra-small;
+}
+
+%font-small-light {
+  font-size: $font-size-small;
+  font-weight: $font-weight-light;
+  line-height: $line-height-small;
+  letter-spacing: $letter-spacing-open;
+}
+
+%font-small {
+  font-size: $font-size-small;
+  font-weight: $font-weight-medium;
+  line-height: $line-height-small;
+}
+
+%font-normal-light {
+  font-size: $font-size-normal;
+  font-weight: $font-weight-light;
+  line-height: $line-height-normal;
+}
+
+%font-normal {
+  font-size: $font-size-normal;
+  font-weight: $font-weight-medium;
+  line-height: $line-height-normal;
+}
+
+%font-medium {
+  font-size: $font-size-medium;
+  font-weight: $font-weight-medium;
+  line-height: $line-height-medium;
+}
+
+%font-medium-bold {
+  font-size: $font-size-medium;
+  font-weight: $font-weight-bold;
+  line-height: $line-height-medium;
+  letter-spacing: $letter-spacing-close;
+}
+
+%font-large {
+  font-size: $font-size-large;
+  font-weight: $font-weight-medium;
+  line-height: $line-height-large;
+}
+
+%font-extra-large-light {
+  font-size: $font-size-extra-large;
+  font-weight: $font-weight-light;
+  line-height: $line-height-extra-large;
+}
+
+%font-extra-large {
+  font-size: $font-size-extra-large;
+  font-weight: $font-weight-medium;
+  line-height: $line-height-extra-large;
+}
+
+%font-grand-bold {
+  font-size: $font-size-grand;
+  font-weight: $font-weight-bold;
+  line-height: $line-height-grand;
+}
