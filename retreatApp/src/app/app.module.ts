@@ -51,6 +51,7 @@ import { PlaceComponent } from './place/place.component';
 import { ActivitiesComponent } from './activities/activities.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { DashboardModule } from './dashboard/dashboard.module';
+import {CardsContainerModule} from './components/card/cards-container.module';
 
 
 @NgModule({
@@ -69,7 +70,9 @@ import { DashboardModule } from './dashboard/dashboard.module';
     LayoutModule,
     MatSidenavModule,
     MatListModule,
-    DashboardModule
+    DashboardModule,
+    CardsContainerModule,
+    MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

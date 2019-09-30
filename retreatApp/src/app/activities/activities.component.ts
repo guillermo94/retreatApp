@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {Card} from '../utilities/models/card';
 
 @Component({
   selector: 'app-activities',
@@ -7,9 +8,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ActivitiesComponent implements OnInit {
 
+  public activityList: Card[] = [{
+    title: 'Yoga para principiantes',
+    content: 'En este curso se ralizarán las siguientes activdades....'
+  }, {
+    title: 'Atención plena',
+    content: 'En este curso se ralizarán las siguientes activdades....'
+  }, {
+    title: 'Descanso de la mente',
+    content: 'En este curso se ralizarán las siguientes activdades....'
+  }];
 
-  
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
   }

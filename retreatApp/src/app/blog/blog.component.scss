@@ -1,0 +1,12 @@
+@import "../utilities/variables";
+.blog-container {
+  @extend %title-and-paragraph-container;
+
+  & .blog-title {
+    @extend %font-medium-bold;
+  }
+
+  & .blog-paragraph {
+    @extend %paragraph-normal;
+  }
+}
