@@ -1,0 +1,17 @@
+@import "../../utilities/variables";
+
+.edit-welcome-title {
+  @extend %font-medium-bold;
+}
+
+.edit-welcome-paragraph {
+  @extend %paragraph-normal;
+    min-height: 300px;
+
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+

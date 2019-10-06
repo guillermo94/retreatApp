@@ -1,0 +1,19 @@
+<form class="form-container basic-container">
+  <h1 class="new-activity-title">New Activity</h1>
+  <mat-form-field class="mat-form-field">
+    <input matInput placeholder="Title">
+  </mat-form-field>
+  <mat-form-field class="mat-form-field">
+    <input matInput [matDatepicker]="pickerStart" placeholder="Start date">
+    <mat-datepicker-toggle matSuffix [for]="pickerStart"></mat-datepicker-toggle>
+    <mat-datepicker #pickerStart></mat-datepicker>
+  </mat-form-field>
+  <mat-form-field class="mat-form-field">
+    <input matInput [matDatepicker]="pickerEnd" placeholder="End date">
+    <mat-datepicker-toggle matSuffix [for]="pickerEnd"></mat-datepicker-toggle>
+    <mat-datepicker #pickerEnd></mat-datepicker>
+  </mat-form-field>
+  <mat-form-field class="mat-form-field">
+    <textarea class="new-activity-text-area" matInput placeholder="Information about the activity"></textarea>
+  </mat-form-field>
+</form>

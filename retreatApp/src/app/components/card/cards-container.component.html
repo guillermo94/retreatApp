@@ -1,6 +1,12 @@
 <div class="cards-container">
-    <div class="card" *ngFor="let card of cardList">
-      <div class="card-heading">{{card.title}}</div>
-      <div class="card-body">{{card.content}}</div>
+  <div class="card" *ngFor="let card of cardList">
+    <div class="card-heading">
+      <div class="title">
+        <i class="material-icons">
+        calendar_today
+      </i>{{card.title}}</div>
+      <div class="sub-title">{{formatDate(card.startDate)}} - {{formatDate(card.endDate)}}</div>
     </div>
+    <div class="card-body">{{card.content}}</div>
+  </div>
 </div>

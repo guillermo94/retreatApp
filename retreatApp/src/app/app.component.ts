@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
-import { MatIconRegistry } from '@angular/material';
-import { DomSanitizer } from '@angular/platform-browser';
+import {Component} from '@angular/core';
+import {MatIconRegistry} from '@angular/material';
+import {DomSanitizer} from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
@@ -9,11 +9,12 @@ import { DomSanitizer } from '@angular/platform-browser';
 })
 export class AppComponent {
   constructor(private matIconRegistry: MatIconRegistry,
-    private domSanitizer: DomSanitizer){
-      this.matIconRegistry.addSvgIcon(
-        "yoga-icon",
-        this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/icon.svg")
-      );
+              private domSanitizer: DomSanitizer) {
+    this.matIconRegistry.addSvgIcon(
+      'yoga-icon',
+      this.domSanitizer.bypassSecurityTrustResourceUrl('../assets/icon.svg')
+    );
   }
+
   title = 'App';
 }

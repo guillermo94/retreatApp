@@ -10,6 +10,8 @@ export class ActivitiesComponent implements OnInit {
 
   public activityList: Card[] = [{
     title: 'Yoga para principiantes',
+    startDate: new Date(2019, 11, 12),
+    endDate: new Date(2019, 11, 22),
     content: 'En este curso se ralizarán las siguientes activdades....'
   }, {
     title: 'Atención plena',

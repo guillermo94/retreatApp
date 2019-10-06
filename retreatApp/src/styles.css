@@ -11,3 +11,8 @@ body {
 .basic-container {
   padding: 30px;
 }
+
+.material-icons {
+  margin-right: 0.3rem;
+  padding-top: 0.2rem;
+}

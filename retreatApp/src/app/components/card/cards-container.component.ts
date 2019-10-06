@@ -16,4 +16,8 @@ export class CardsContainerComponent implements OnInit {
   ngOnInit() {
   }
 
+  public formatDate(date: Date): string {
+    return date.getDate() + '/' + date.getMonth() + '/' + date.getFullYear();
+  }
+
 }

@@ -24,7 +24,7 @@
     min-height: 30px;
     width: 100%;
     background-color: #a88ad8;
-    padding: 14px 2%;
+    padding: 10px 2% 15px 2%;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     text-transform: capitalize;
@@ -34,6 +34,16 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+
+    & .title {
+      display: flex;
+    }
+
+    & .sub-title {
+      @extend %font-tiny-light;
+      font-style: oblique;
+      margin-left: 30px;
+    }
   }
 
   & .card-body {
